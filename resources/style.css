@@ -645,11 +645,9 @@
 		padding:0;
 	}
 }
-@media(max-width: 1217px){
-	#header2 .nav-list{
-		padding:0;
-	}
+@media(max-width: 1200px){
 	#header2{
-		padding:69px 0;
+		display: none;
 	}
+	
 }
