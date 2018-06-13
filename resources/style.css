@@ -6,9 +6,9 @@
 	.logo{
 
 	}
-	#header1 .nav-list li a,#search-btn{
-		display: block;
-		padding:60px 14px 12px 14px;
+	#header1 .nav-list li a,#header1 #search-btn{
+		display: block!important;
+		padding:60px 14px 12px 14px!important;
 	}
 	#header1 .nav-list li>a{
 		text-transform:uppercase;
@@ -58,7 +58,7 @@
 	#header2 .nav-list li{
 		float:left;
 	}
-	#header2 .nav-list li a,#search-btn{
+	#header2 .nav-list li a,#header2 #search-btn{
 		display: block;
 		padding:12px 14px;
 	}
@@ -457,6 +457,7 @@
 	text-align: justify;
 	line-height: 30px;
 }
+/* PROJECTION */
 
 /*FOOTER*/
 
